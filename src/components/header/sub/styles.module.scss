@@ -1,0 +1,29 @@
+@import '../../../CommonStyle/variables.scss';
+
+.subHeader {
+  background: $sub-header;
+  color: $white;
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    max-height: 50px;
+  }
+  * {
+    font-size: 1.4rem;
+  }
+  .followUs {
+    display: flex;
+    .social {
+      text-transform: capitalize;
+      &:first-child {
+        margin-left: 1rem;
+      }
+      margin-right: 1rem;
+    }
+  }
+  .controlTheme {
+    text-transform: capitalize;
+  }
+}
